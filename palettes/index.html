@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Colorlab - JuSoft</title>
+  <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/arcon.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--Easier URL: https://color.koya.io/-->
+
+<div class="error">
+   <div class="overlay">
+      <div class="close"></div>
+      <div class="colorcode">
+         <input type="text" class="errorcode"/>
+      </div>
+      <div class="desc">Your browser does not support clipboard.js - copy the color code above.</div>
+   </div>
+   <div class="catchment"></div>
+</div>
+
+<div class="header">
+   <div class="dropdown">
+      <div class="selection">HEX - #123DEF</div>
+      <div class="options">
+         <div class="selected">HEX - #123DEF</div>
+         <div>HEX - 123DEF</div>
+         <div>WHEX - #123</div>
+         <div>WHEX - 123</div>
+         <div>WHEX - #112233</div>
+         <div>WHEX - 112233</div>
+         <div>HEXA - #123DEFFF</div>
+         <div>HEXA - 123DEFFF</div>
+         <div>RGB - (255,255,255)</div>
+         <div>RGB - rgb(255,255,255)</div>
+         <div>RGBA - (255,255,255,1)</div>
+         <div>RGBA - rgba(255,255,255,1)</div>
+         <div>RGBA - (255,255,255,255)</div>
+         <div>RGBA - rgba(255,255,255,255)</div>
+         <div>RGB - Individual</div>
+         <div>CYMK - (0.1,0.1,0.1,0.1)</div>
+         <div>CYMK% - (10,10,10,10)</div>
+         <!--
+            To add:
+            CYMK
+         -->
+      </div>
+   </div>
+
+</div>
+
+<div class="palettes">
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="D8334A" style="background-color:#D8334A" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="BF263C" style="background-color:#BF263C" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Ruby</div>
+         <div class="values">#D8334A, #BF263C</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="ED5565" style="background-color:#ED5565" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="DA4453" style="background-color:#DA4453" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Grapefruit</div>
+         <div class="values">#ED5565, #DA4453</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="FC6E51" style="background-color:#FC6E51" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="E9573F" style="background-color:#E9573F" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Bittersweet</div>
+         <div class="values">#FC6E51, #E9573F</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="FFCE54" style="background-color:#FFCE54" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="F6BB42" style="background-color:#F6BB42" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Sunflower</div>
+         <div class="values">#FFCE54, #F6BB42</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="E8CE4D" style="background-color:#E8CE4D" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="E0C341" style="background-color:#E0C341" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Straw</div>
+         <div class="values">#E8CE4D, #E0C341</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="A0D468" style="background-color:#A0D468" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="8CC152" style="background-color:#8CC152" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Grass</div>
+         <div class="values">#A0D468, #8CC152</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="2ECC71" style="background-color:#2ECC71" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="2ABA66" style="background-color:#2ABA66" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Basil</div>
+         <div class="values">#2ECC71, #2ABA66</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="48CFAD" style="background-color:#48CFAD" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="37BC9B" style="background-color:#37BC9B" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Mint</div>
+         <div class="values">#48CFAD, #37BC9B</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="A0CECB" style="background-color:#A0CECB" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="7DB1B1" style="background-color:#7DB1B1" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Teal</div>
+         <div class="values">#A0CECB, #7DB1B1</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="4FC1E9" style="background-color:#4FC1E9" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="3BAFDA" style="background-color:#3BAFDA" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Aqua</div>
+         <div class="values">#4FC1E9, #3BAFDA</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="5D9CEC" style="background-color:#5D9CEC" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="4A89DC" style="background-color:#4A89DC" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Blue Jeans</div>
+         <div class="values">#5D9CEC, #4A89DC</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="AC92EC" style="background-color:#AC92EC" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="967ADC" style="background-color:#967ADC" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Lavender</div>
+         <div class="values">#AC92EC, #967ADC</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="8067B7" style="background-color:#8067B7" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="6A50A7" style="background-color:#6A50A7" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Plum</div>
+         <div class="values">#8067B7, #6A50A7</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="EC87C0" style="background-color:#EC87C0" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="D770AD" style="background-color:#D770AD" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Pink Rose</div>
+         <div class="values">#EC87C0, #D770AD</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="BAA286" style="background-color:#BAA286" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="AA8E69" style="background-color:#AA8E69" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Grizzly Bear</div>
+         <div class="values">#BAA286, #AA8E69</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="8E8271" style="background-color:#8E8271" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="7B7163" style="background-color:#7B7163" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Chocolate</div>
+         <div class="values">#8E8271, #7B7163</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="F5F7FA" style="background-color:#F5F7FA" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="E6E9ED" style="background-color:#E6E9ED" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Light Grey</div>
+         <div class="values">#F5F7FA, #E6E9ED</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="CCD1D9" style="background-color:#CCD1D9" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="AAB2BD" style="background-color:#AAB2BD" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Grey</div>
+         <div class="values">#CCD1D9, #AAB2BD</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="656D78" style="background-color:#656D78" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="434A54" style="background-color:#434A54" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Dark Grey</div>
+         <div class="values">#656D78, #434A54</div>
+      </div>
+   </div>
+   <div class="palette">
+      <div class="colours">
+         <div class="c1" color="3C3B3D" style="background-color:#3C3B3D" data-clipboard-target=".colourvalue"></div>
+         <div class="c2" color="323133" style="background-color:#323133" data-clipboard-target=".colourvalue"></div>
+      </div>
+      <div class="details">
+         <div class="name">Charcoal</div>
+         <div class="values">#3C3B3D, #323133</div>
+      </div>
+   </div>
+</div>
+<div class="individual" style="display:none">
+   <div class="red" data-clipboard-target=".colourvalue"></div>
+   <div class="green" data-clipboard-target=".colourvalue"></div>
+   <div class="blue" data-clipboard-target=".colourvalue"></div>
+</div>
+
+<!--<div class="palettes custompalettes">
+   <div class="palette add">
+      <div class="sign" color="A0D468"></div>
+   </div>
+</div>-->
+
+<div class="footer">
+   <p>"Compliment each other like colors"</p>
+</div>
+
+
+<div class="hidden">
+   <input type="text" class="colourvalue" />
+</div>
+<!-- partial -->
+  <script src='https://codepen.io/z-/pen/a8e37caf2a04602ea5815e5acedab458.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://peterolson.github.io/BigInteger.js/BigInteger.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.10/clipboard.min.js'></script>
+<script src='https://codepen.io/z-/pen/0a1bedbb8ca05b9afd329264fca7b921'></script><script  src="./script.js"></script>
+
+</body>
+</html>

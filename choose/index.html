@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choose</title>
+</head>
+<body>
+<div class="container">
+  <div class="item item1"><a href="../palettes/index.html"><img class="container_img" src="https://i.imgur.com/r4KQqVn.png"/></a></div>
+  <div class="item item2"></div>
+  <div class="item item3"></div>
+  <div class="item item4"></div>
+  <div class="item item5"></div>
+  <div class="item item5"></div>
+</div>
+</body>
+</html>
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 150px;
+    grid-gap: 1rem;
+  }
+
+  .container_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  body {
+    background-color: #F0F2F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #fff;
+    border-radius: 4px;
+    border: 6px solid #171717;
+  }
+</style>
